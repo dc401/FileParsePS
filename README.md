@@ -17,7 +17,7 @@ Option 2 – Only parse based on the delimiter specified and replace with the on
 Why: 
 A use case would be if you’re parsing a huge file that crashes notepad or excel or a file with a ton of lines or 
 other data you need to shift through and turn into something like a CSV; or turn a CSV into any other 
-delimited file format compatible for whatever your need is. For instance, Qradar only takes UTF8 Encoded CSV files. 
+delimited file format compatible for whatever your need is. For instance,
 If you have “A  B   C”  it would crash. This script allows you to specify something like “\t” as a single tab delimiter and turn this data into something like “A,B,C” or “A:B:C”.
 
 Notes: If you want to increase performance or just don’t care, you can comment out Write-Progress within the 
